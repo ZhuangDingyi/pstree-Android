@@ -1,0 +1,40 @@
+=====Terminal 1====
+zdy@ubuntu:~/Android/proj/Problem4$ ./server
+Server initiating...
+Receiving message: hello world!
+Receiving message: how are you?
+Receiving message: HellO woRLD!
+Receiving message: HOW ARe you??@#@#
+Sever thread closing...
+Receiving message: hello? is it no busy now?
+
+=====Terminal 2====
+zdy@ubuntu:~/Android/proj/Problem4$ ./client
+Please enter the message:
+hello world!
+From server: khoor zruog!
+how are you?
+From server: krz duh brx?
+:q
+Client closing...
+
+=====Terminal 3====
+zdy@ubuntu:~/Android/proj/Problem4$ ./client
+Please enter the message:
+HellO woRLD!
+From server: KhooR zrUOG!
+HOW ARe you??@#@#
+From server: KRZ DUh brx??@#@#
+
+
+=====Terminal 4====
+zdy@ubuntu:~/Android/proj/Problem4$ ./client
+Please enter the message:
+hello?
+Busy now!Please retry a few moments later...
+
+
+zdy@ubuntu:~/Android/proj/Problem4$ ./client
+Please enter the message:
+hello? is it no busy now?
+From server: khoor? lv lw qr exvb qrz?

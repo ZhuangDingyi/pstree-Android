@@ -1,0 +1,81 @@
+root@generic:/data/misc # ./runPtree_problem2                                  
+The number of process is 74.
+swapper,0,0,0,1,0,0
+	init,1,1,0,45,0,0
+		ueventd,45,1,1,0,0,0
+		logd,62,1,1,0,0,1036
+		vold,63,1,1,0,0,0
+		healthd,70,1,1,0,0,0
+		lmkd,71,1,1,0,0,0
+		servicemanager,72,1,1,0,0,1000
+		surfaceflinger,73,1,1,0,0,1000
+		qemud,75,1,1,0,0,0
+		sh,78,1,1,0,0,2000
+		adbd,79,1,1,881,0,0
+			sh,881,1,79,1205,0,0
+				runPtree_proble,1205,0,881,0,0,0
+		netd,80,1,1,0,0,0
+		debuggerd,81,1,1,0,0,0
+		rild,82,1,1,0,0,1001
+		drmserver,83,1,1,0,0,1019
+		mediaserver,84,1,1,0,0,1013
+		installd,85,1,1,0,0,0
+		keystore,86,1,1,0,0,1017
+		main,87,1,1,239,0,0
+			system_server,239,1,87,0,0,1000
+			externalstorage,692,1,87,0,0,10006
+			putmethod.latin,715,1,87,0,0,10032
+			m.android.phone,730,1,87,0,0,1001
+			d.process.acore,769,1,87,0,0,10002
+			m.android.music,807,1,87,0,0,10035
+			d.process.media,834,1,87,0,0,10005
+			ndroid.systemui,859,1,87,0,0,10013
+			ndroid.keychain,885,1,87,0,0,1000
+			.android.dialer,926,1,87,0,0,10004
+			viders.calendar,984,1,87,0,0,10001
+			id.printspooler,1014,1,87,0,0,10040
+			gedprovisioning,1038,1,87,0,0,10008
+			ndroid.calendar,1056,1,87,0,0,10019
+			droid.deskclock,1075,1,87,0,0,10023
+			m.android.email,1096,1,87,0,0,10027
+			ndroid.exchange,1111,1,87,0,0,10029
+			.quicksearchbox,1130,1,87,0,0,10042
+			ndroid.settings,1145,1,87,0,0,1000
+			droid.launcher3,1183,1,87,0,0,10007
+		gatekeeperd,88,1,1,0,0,1000
+		perfprofd,91,1,1,0,0,0
+		fingerprintd,92,1,1,0,0,1000
+	kthreadd,2,1,0,3,0,0
+		ksoftirqd/0,3,1,2,0,0,0
+		khelper,6,1,2,0,0,0
+		sync_supers,7,1,2,0,0,0
+		bdi-default,8,1,2,0,0,0
+		kblockd,9,1,2,0,0,0
+		rpciod,10,1,2,0,0,0
+		kswapd0,12,1,2,0,0,0
+		fsnotify_mark,13,1,2,0,0,0
+		crypto,14,1,2,0,0,0
+		kworker/u:1,25,1,2,0,0,0
+		mtdblock0,30,1,2,0,0,0
+		mtdblock1,35,1,2,0,0,0
+		mtdblock2,40,1,2,0,0,0
+		binder,41,1,2,0,0,0
+		deferwq,42,1,2,0,0,0
+		kworker/u:2,43,1,2,0,0,0
+		mmcqd/0,44,1,2,0,0,0
+		jbd2/mtdblock0-,47,1,2,0,0,0
+		ext4-dio-unwrit,48,1,2,0,0,0
+		kworker/0:2,49,1,2,0,0,0
+		flush-31:1,52,1,2,0,0,0
+		jbd2/mtdblock1-,54,1,2,0,0,0
+		ext4-dio-unwrit,55,1,2,0,0,0
+		jbd2/mtdblock2-,60,1,2,0,0,0
+		ext4-dio-unwrit,61,1,2,0,0,0
+		kauditd,102,1,2,0,0,0
+		kworker/0:0,785,1,2,0,0,0
+		flush-179:0,805,1,2,0,0,0
+
+=========In kernel=========
+begin to ptree!!
+Copy success:comm: swapper, pid: 0Copy success:comm: init, pid: 1Copy success:comm: ueventd, pid: 45Copy success:comm: logd, pid: 62Copy success:comm: vold, pid: 63Copy success:comm: healthd, pid: 70Copy success:comm: lmkd, pid: 71Copy success:comm: servicemanager, pid: 72Copy success:comm: surfaceflinger, pid: 73Copy success:comm: qemud, pid: 75Copy success:comm: sh, pid: 78Copy success:comm: adbd, pid: 79Copy success:comm: sh, pid: 881Copy success:comm: runPtree_proble, pid: 1205Copy success:comm: netd, pid: 80Copy success:comm: debuggerd, pid: 81Copy success:comm: rild, pid: 82Copy success:comm: drmserver, pid: 83Copy success:comm: mediaserver, pid: 84Copy success:comm: installd, pid: 85Copy success:comm: keystore, pid: 86Copy success:comm: main, pid: 87Copy success:comm: system_server, pid: 239Copy success:comm: externalstorage, pid: 692Copy success:comm: putmethod.latin, pid: 715Copy success:comm: m.android.phone, pid: 730Copy success:comm: d.process.acore, pid: 769Copy success:comm: m.android.music, pid: 807Copy success:comm: d.process.media, pid: 834Copy success:comm: ndroid.systemui, pid: 859Copy success:comm: ndroid.keychain, pid: 885Copy success:comm: .android.dialer, pid: 926Copy success:comm: viders.calendar, pid: 984Copy success:comm: id.printspooler, pid: 1014Copy success:comm: gedprovisioning, pid: 1038Copy success:comm: ndroid.calendar, pid: 1056Copy success:comm: droid.deskclock, pid: 1075Copy success:comm: m.android.email, pid: 1096Copy success:comm: ndroid.exchange, pid: 1111Copy success:comm: .quicksearchbox, pid: 1130Copy success:comm: ndroid.settings, pid: 1145Copy success:comm: droid.launcher3, pid: 1183Copy success:comm: gatekeeperd, pid: 88Copy success:comm: perfprofd, pid: 91Copy success:comm: fingerprintd, pid: 92Copy success:comm: kthreadd, pid: 2Copy success:comm: ksoftirqd/0, pid: 3Copy success:comm: khelper, pid: 6Copy success:comm: sync_supers, pid: 7Copy success:comm: bdi-default, pid: 8Copy success:comm: kblockd, pid: 9Copy success:comm: rpciod, pid: 10Copy success:comm: kswapd0, pid: 12Copy success:comm: fsnotify_mark, pid: 13Copy success:comm: crypto, pid: 14Copy success:comm: kworker/u:1, pid: 25Copy success:comm: mtdblock0, pid: 30Copy success:comm: mtdblock1, pid: 35Copy success:comm: mtdblock2, pid: 40Copy success:comm: binder, pid: 41Copy success:comm: deferwq, pid: 42Copy success:comm: kworker/u:2, pid: 43Copy success:comm: mmcqd/0, pid: 44Copy success:comm: jbd2/mtdblock0-, pid: 47Copy success:comm: ext4-dio-unwrit, pid: 48Copy success:comm: kworker/0:2, pid: 49Copy success:comm: flush-31:1, pid: 52Copy success:comm: jbd2/mtdblock1-, pid: 54Copy success:comm: ext4-dio-unwrit, pid: 55Copy success:comm: jbd2/mtdblock2-, pid: 60Copy success:comm: ext4-dio-unwrit, pid: 61Copy success:comm: kauditd, pid: 102Copy success:comm: kworker/0:0, pid: 785Copy success:comm: flush-179:0, pid: 805ptree complete!!
+

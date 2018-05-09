@@ -1,0 +1,9 @@
+'''
+StudentNumber:515020910156
+Name:庄丁奕
+'''
+There are four folders in this .tar file, named from Problem1 to Problem4. Here are the files I submitted:
+/Problem1/ptree.ko:module for android. Given the syscall 391 is not applicable, I change it into 287 as the demo. 
+/Problem2/runPtree_problem2.c:to test my module in Android virtual machine.
+/Problem3/test_problem3.c: to generate execl execution in a child process. 
+/Problem4/sever.c&client.c: use multi-thread programming to realize the Caesar Encryption in server-client mode.
